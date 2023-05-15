@@ -1,0 +1,60 @@
+.countryLink {
+    cursor: pointer;
+    color: lightblue;
+
+}
+.bigbox {
+    max-height: 900px;
+    color: azure;
+}
+
+.countryMap{
+    height: 100%;
+    width: 100%;
+}
+.countryMap iframe{
+    border-radius: 0px 5px 10px 0px;
+}
+.restCardBody{
+  
+    width: 100%;
+}
+.flagImg{
+    height: 300px;
+    width: 100%;
+}
+
+.countryCard-text{
+    padding: 10px;
+    margin-bottom :0px
+}
+
+.countryCard-header{
+    font-family: 'Pangolin', cursive;
+    color: white;  
+
+}
+
+.countryCard-body{
+    border-radius: 5px;
+    font-family: 'Pangolin', cursive;
+  
+}
+
+@media (max-width:768px){
+    .flagImg{
+        height: 250px;
+    }
+    .flagImg img{
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+
+    .countryMap{
+        height: 250px;
+    }
+    .countryMap iframe{
+        border-radius: 0px 0px 5px 5px;
+        
+    }
+}

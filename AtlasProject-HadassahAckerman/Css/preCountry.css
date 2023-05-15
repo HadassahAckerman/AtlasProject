@@ -1,0 +1,41 @@
+.preBox {
+    cursor: pointer;
+    min-height: 380px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.preImg {
+    height: 250px;
+}
+
+.countryP {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+}
+
+@media (max-width:768px) {
+    .preBox {
+        min-width: 75%;
+        min-height: 350px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .preImg {
+        height: 180px;
+
+    }
+}
+
+@media (max-width:550px) {
+    .preBox {
+        min-height: 300px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@media (max-width:350px) {
+    .preBox {
+        min-height: 200px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
